@@ -2,7 +2,7 @@ from basketapp.models import Basket
 
 
 def basket(request):
-    print('ПРивет это контекстный процессор')
+    print('Привет, это контекстный процессор')
     basket = []
 
     if request.user.is_authenticated:

@@ -1,19 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f80a95d4-5e8f-44de-b18c-8d41578a2aa1" name="Default Changelist" comment="" />
+    <list default="true" id="f80a95d4-5e8f-44de-b18c-8d41578a2aa1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/static/adminapp/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/static/adminapp/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/category_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/category_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/includes/inc_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/product_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/product_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/product_read.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/product_update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/shopuser_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/user_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/user_update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/templates/adminapp/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/adminapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/migrations/0002_shopuser_is_delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/templates/authapp/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/templates/authapp/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/templates/authapp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/templates/authapp/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/authapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/static/basketapp/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/templates/basketapp/basket.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/templates/basketapp/includes/inc_basket_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/basketapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/fonts/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/fonts/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/app-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/controll.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/controll1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/controll2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/google-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/icon-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/mobile-back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-1-lg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-2-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-3-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-4-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-5-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/product-61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/promo-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/promo-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/slider-hotdeal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/slider.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/img/social-links.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/templates/geekshop/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/templates/geekshop/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/templates/geekshop/includes/inc_footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/templates/geekshop/includes/inc_main_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/templates/geekshop/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/geekshop/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/json/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/json/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/management/commands/fill_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/migrations/0002_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/migrations/0003_auto_20210601_1516.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/migrations/0004_auto_20210604_1057.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/migrations/0005_auto_20210622_1027.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/fonts/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/fonts/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/app-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/controll.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/controll1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/controll2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/google-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/icon-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/mobile-back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-1-lg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-2-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-3-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-4-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-5-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/product-61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/promo-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/promo-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/slider-hotdeal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/slider.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/img/social-links.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/static/mainapp/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/templates/mainapp/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/templates/mainapp/products_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/mainapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/app-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/controll.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/controll1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/controll2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/google-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/icon-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/mobile-back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-1-lg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-11_7JtjcIM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-11_ZTQ3wTe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-11_juDfBfC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-1_GDHPRRY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-2-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-21_KVNTASj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-21_uBAGR0m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-2_gb2rplt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-3-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-31_M5KJxxC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-4-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-41_nHWCTSx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-5-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/product-61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/promo-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/promo-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/slider-hotdeal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/slider.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/products_images/social-links.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/user_avatars/more-gorod-kotor-chernogoriya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop1/media/user_avatars/more-gorod-kotor-chernogoriya_OawIDth.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1wtOITcL5cQn80hPxyzV2dmOKmE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -25,5 +261,16 @@
       <updated>1629274341595</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
