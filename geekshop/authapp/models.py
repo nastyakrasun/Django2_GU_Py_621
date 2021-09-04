@@ -42,6 +42,14 @@ class ShopUserProfile(models.Model):
 
     about_me = models.TextField(verbose_name='о себе', max_length=512, blank=True)
 
+    # country = models.TextField(verbose_name='страна', max_length=512, blank=True)
+    #
+    # online = models.TextField(verbose_name='онлайн', max_length=20, blank=True)
+    #
+    # domain = models.TextField(verbose_name='домен', max_length=20, blank=True)
+    #
+    # site = models.TextField(verbose_name='сайт', max_length=20, blank=True)
+
     gender = models.CharField(verbose_name='пол', max_length=1, choices=GENDER_CHOICES, blank=True)
 
     @receiver(post_save, sender=ShopUser)

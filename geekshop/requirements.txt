@@ -11,3 +11,4 @@ sqlparse==0.4.1
 virtualenv==20.4.7
 social-auth-app-django
 django-environ
+requests
