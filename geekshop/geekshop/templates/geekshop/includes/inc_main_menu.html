@@ -5,11 +5,34 @@
         <li><a href="{% url 'products:index' %}">продукты</a></li>
         <li><a href="{% url 'contacts' %}">контакты</a></li>
         {% if user.is_authenticated %}
-        <li>
-            <a href="{% url 'auth:edit' %}">
-                {{ user.first_name|default:'Пользователь' }}
-
-            </a>
+            <li class="auth">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{ user.first_name|default:'Пользователь'}}
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li>
+                            <a class="dropdown-item inline-block" href="{% url 'auth:edit' %}">Профиль пользователя</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item inline-block" href="{% url 'auth:logout' %}">Выход</a>
+                        </li>
+                        {% if user.is_staff %}
+                            <li>
+                                <hr class="dropdown-divider inline-block">
+                            </li>
+                            <li>
+                                <a class="dropdown-item inline-block" href="{% url 'admin_staff:users' %}">Менеджер</a>
+                            </li>
+                        {% endif %}
+                        {% if user.is_superuser %}
+                            <li>
+                                <a class="dropdown-item inline-block" href="/admin/">Админка</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </li>
             <a href="{% url 'basket:view' %}" >
                 <span>
                     {% if basket %}
@@ -18,21 +41,12 @@
                     {% endif %}
                 </span>
             </a>
-        </li>
-        {% if user.is_superuser %}
-        <li>
-            <a href="{% url 'admin_staff:users' %}">админка</a>
-        </li>
+            <li>
+                <a href="{% url 'auth:logout' %}">выйти</a>
+                {% else %}
+                    <a href="{% url 'auth:login' %}">войти</a>
+            </li>
         {% endif %}
-
-        {% endif %}
-        <li>
-            {% if user.is_authenticated %}
-              <a href="{% url 'auth:logout' %}">выйти</a>
-            {% else %}
-              <a href="{% url 'auth:login' %}">войти</a>
-            {% endif %}
-        </li>
     </ul>
     <a href="#" class="search"></a>
 </div>
