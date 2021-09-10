@@ -1,0 +1,46 @@
+[
+  {
+      "category": 1,
+      "name": "Стул",
+      "image": "products_images/product-4.jpg",
+      "short_desc": "Удобный стул",
+      "description": "бла-бла-бла",
+      "price": "0.00",
+      "quantity": 0,
+      "created": "2021-06-01T12:21:48.635Z",
+      "updated": "2021-06-01T12:21:48.644Z"
+  },
+  {
+      "category": 2,
+      "name": "Часы",
+      "image": "products_images/product-4-sm.jpg",
+      "short_desc": "Точные часы",
+      "description": "ола-ла",
+      "price": "0.00",
+      "quantity": 0,
+      "created": "2021-06-01T12:21:48.635Z",
+      "updated": "2021-06-01T12:21:48.644Z"
+  },
+  {
+      "category": 1,
+      "name": "Кресло",
+      "image": "products_images/product-2_gb2rplt.jpg",
+      "short_desc": "Яркое кресло",
+      "description": "бла-бла-бла",
+      "price": "0.00",
+      "quantity": 0,
+      "created": "2021-06-02T07:49:24.589Z",
+      "updated": "2021-06-02T08:11:58.303Z"
+  },
+  {
+      "category": 2,
+      "name": "Светильник",
+      "image": "products_images/product-1_GDHPRRY.jpg",
+      "short_desc": "Настольный светильник",
+      "description": "ла-ла-ла",
+      "price": "0.00",
+      "quantity": 0,
+      "created": "2021-06-02T07:51:16.883Z",
+      "updated": "2021-06-02T08:12:51.888Z"
+  }
+]
