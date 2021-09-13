@@ -3,11 +3,11 @@
 	<ul class="menu">
 		<li><a href="{% url 'index' %}">домой</a></li>
 		<li><a href="{% url 'products:products' %}">продукты</a></li>
-		<li><a href="{% url 'contact' %}">контакты</a></li>
+		<li><a href="{% url 'contacts' %}">контакты</a></li>
 		{% if user.is_authenticated %}
 			<li>
 				<a href="{% url 'auth:edit' %}">{{ user.first_name|default:'Пользователь' }}</a>
-				<a href="{% url 'basket:view' %}" >
+
 					<span>
 						{% if basket %}
 							{{ basket.0.total_cost|floatformat:0 }} руб
