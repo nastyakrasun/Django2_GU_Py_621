@@ -12,7 +12,7 @@ from authapp.models import ShopUser
 def login(request):
     title = 'вход'
 
-    login_form = ShopUserLoginForm(data=request.POST)
+    login_form = ShopUserLoginForm(data=request.POST or None)
     next = request.GET['next'] if 'next' in request.GET.keys() else ''
 
     if request.method == 'POST' and login_form.is_valid():
@@ -25,8 +25,8 @@ def login(request):
             if 'next' in request.POST.keys():
                 return HttpResponseRedirect(request.POST['next'])
             else:
-            # return HttpResponseRedirect(reverse('index'))  # для управления url, которые могут измениться в процессе
-                return HttpResponseRedirect('/')  # для возврата на главную страницу, так проще
+                return HttpResponseRedirect(reverse('index'))  # для управления url, которые могут измениться в процессе
+            #     return HttpResponseRedirect('/')  # для возврата на главную страницу, так проще
 
     context = {
         'title': title,
@@ -39,7 +39,7 @@ def login(request):
 
 def logout(request):
     auth.logout(request)
-    return HttpResponseRedirect('/')
+    return HttpResponseRedirect(reverse('index'))
 
 
 def register(request):
@@ -49,8 +49,14 @@ def register(request):
         register_form = ShopUserRegisterForm(request.POST, request.FILES)
 
         if register_form.is_valid():
-            register_form.save()
-            return HttpResponseRedirect(reverse('auth:register'))
+            user = register_form.save()
+            if send_verify_mail(user):
+                print('сообщение отправлено')
+                return HttpResponseRedirect(reverse('auth:login'))
+            else:
+                print('сообщение не отправлено')
+                return HttpResponseRedirect(reverse('auth:login'))
+
     else:
         register_form = ShopUserRegisterForm()
 
@@ -60,7 +66,7 @@ def register(request):
 
 
 def edit(request):
-    title = 'редактирование'
+    title = 'редактирование профиля'
 
     if request.method == 'POST':
         edit_form = ShopUserEditForm(request.POST, request.FILES, instance=request.user)

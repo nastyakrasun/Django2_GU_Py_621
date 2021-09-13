@@ -150,7 +150,7 @@ DOMAIN_NAME = 'http://localhost:8000'
 EMAIL_HOST = 'smtp.mailtrap.io'
 EMAIL_HOST_USER = 'eacd4ab3d411d5'
 EMAIL_HOST_PASSWORD = '1f687fe214a2b4'
-EMAIL_PORT = '2525'
+EMAIL_PORT = '25'
 EMAIL_USE_SSL = False
 EMAIL_USE_TLS = False
 
