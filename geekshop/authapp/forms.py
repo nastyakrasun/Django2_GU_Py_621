@@ -1,3 +1,6 @@
+import random
+import hashlib
+
 from django import forms
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm, UserChangeForm
 from .models import ShopUser
