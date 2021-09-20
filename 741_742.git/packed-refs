@@ -1,0 +1,20 @@
+# pack-refs with: peeled fully-peeled sorted 
+a35d36891c607050dfd2a1ae122e6ba23ca01446 refs/heads/lessno2.2
+f6f6efd7937fdb457737de8851514afc23920972 refs/heads/lesson1
+84f65e9d257ac523ff4aea6ec1c58c50d7afac9b refs/heads/lesson2
+f787a1f753083365b4e4d6755144fcbdbae44c3c refs/heads/lesson2.1
+250f00757df628ad05e07bc33335ae053b3e1014 refs/heads/lesson2.3
+bc4dba0b0bdf674bbe2563ed3b7051c4006821e6 refs/heads/lesson2.4
+4eab11ab661e36ded223bc46c16e2f7b0193a99d refs/heads/lesson2.5
+639a47e24147937835c2d02f3e2ca2eb29d0d94a refs/heads/lesson2.7
+806f51ada4a789233b2281ff4dd16ff495417e2a refs/heads/lesson2.8
+ae681b310d243792a873f2ef685d2f19a00013b1 refs/heads/lesson3
+c3b5119b43b948542b3117f8e083ff90760ce10d refs/heads/lesson4
+e36c50365aaa7e497c72d17c07e21818c2eef4e1 refs/heads/lesson5
+8d272004883c09dbc949be0c5c0c915258aaaf16 refs/heads/lesson6
+128760f3bb83d2103e9939269102d4c8f6d16320 refs/heads/lesson7
+1780840e86c1766b6ac80ec1f1dc1e7acd85535d refs/heads/lesson8
+0cf2d643f2b71f85b895deebc5bb14a7fc468bc1 refs/heads/main
+250f00757df628ad05e07bc33335ae053b3e1014 refs/pull/1/head
+4eab11ab661e36ded223bc46c16e2f7b0193a99d refs/pull/2/head
+639a47e24147937835c2d02f3e2ca2eb29d0d94a refs/pull/3/head
