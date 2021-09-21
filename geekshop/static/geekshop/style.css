@@ -77,8 +77,8 @@ html, body {
 	height: 23px;
 	background-image: url(img/search.png);
 	position: absolute;
-	top: 63px;
-	left: 1176px;
+	top: 73px;
+    left: 42%;
 }
 .basket {
 	display: block;
@@ -253,49 +253,6 @@ html, body {
 .explore:active {
 	color: #6c6c6c;
 	border-bottom: 3px solid #6c6c6c;
-}
-
-.tab-content {
-	margin-top: 50px;
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 120px;
-}
-.tab-content .block {
-	height: 270px;
-	width: 270px;
-	position: relative;
-}
-.tab-content a .text {
-	display: none;
-	height: 268px;
-	width: 268px;
-	background-color: #ffffff;
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    text-align: center;
-    border: 1px solid #9c9c9c;
-}
-.tab-content a .text h4 {
-	color:  #212121;
-	font-size: 22px;
-	font-weight: 700;
-	line-height: 30px;
-	text-align: center;
-}
-.tab-content a .text p {
-	color:  #6c6c6c;
-	font-size: 14px;
-	font-weight: 300;
-	text-align: center;
-	margin: 15px 15px;
-}
-.tab-content a .text img {
-	margin: 70px auto 0;
-}
-.tab-content a:hover .text {
-	display: block;
 }
 
 .promo-content-1 {
@@ -560,7 +517,7 @@ html, body {
 	position: absolute;
 	z-index: 2;
 	top: 10px;
-    right: 50px;
+    right: 20px;
     color: #6c6c6c;
 }
 .text-footer {
@@ -1011,16 +968,7 @@ td:first-child {
 .related {
 	padding: 0px 98px;
 }
-.related .title {
-	height: 343px;
-	margin-right: 0;
-}
-.related .title h2 {
-	margin-top: 245px;
-}
-.related .title .explore {
-	margin-top: 262px;
-}
+
 .related-products {
 	margin-bottom: 120px;
 }
@@ -1068,5 +1016,74 @@ td:first-child {
 	margin-top: 80px;
 }
 .related-products a:hover .text{
+	display: block;
+}
+.related-products .block {
+	float: left;
+	margin-right: 30px;
+	display: block;
+	height: 270px;
+	width: 270px;
+	position: relative;
+}
+
+.related-products .block a .text img {
+	width: 80px;
+}
+.related-products .block a .text {
+	height: 270px;
+	width: 270px;
+}
+
+
+.tab-content {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+}
+
+.tab-content .block {
+	height: 270px;
+	width: 270px;
+	position: relative;
+	margin: 20px;
+}
+
+.block a img {
+	width: 100%;
+}
+
+.tab-content a .text {
+	display: none;
+	height: 268px;
+	width: 268px;
+	background-color: #ffffff;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    border: 1px solid #9c9c9c;
+}
+.tab-content a .text h4 {
+	color:  #212121;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+}
+.tab-content a .text p {
+	color:  #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	margin: 15px 15px;
+}
+.tab-content a .text img {
+	margin: 70px auto 0;
+	width: 80px;
+}
+.tab-content a:hover .text {
 	display: block;
 }
