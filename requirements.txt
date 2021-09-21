@@ -9,3 +9,6 @@ pytz==2021.1
 six==1.16.0
 sqlparse==0.4.2
 virtualenv==20.8.0
+social-auth-app-django
+django-environ
+requests
