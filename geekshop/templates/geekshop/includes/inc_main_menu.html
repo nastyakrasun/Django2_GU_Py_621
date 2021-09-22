@@ -33,7 +33,7 @@
                     </ul>
                 </div>
             </li>
-            <a href="{% url 'basket:view' %}" >
+            <a href="{% url 'basket:view' %}">
                 <span>
                     {% if basket %}
                         {{ basket.0.total_cost|floatformat:0 }} руб
