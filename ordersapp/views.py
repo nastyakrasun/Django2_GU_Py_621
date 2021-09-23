@@ -25,6 +25,7 @@ class OrderItemsCreate(LoginRequiredMixin, CreateView):
     fields = []
     success_url = reverse_lazy('order:orders_list')
 
+# в get_context_data заполняем формы на страницах
     def get_context_data(self, **kwargs):
         data = super(OrderItemsCreate, self).get_context_data(**kwargs)
         OrderFormSet = inlineformset_factory(Order, OrderItem, form=OrderItemForm, extra=1)
@@ -39,6 +40,8 @@ class OrderItemsCreate(LoginRequiredMixin, CreateView):
                 for num, form in enumerate(formset.forms):
                     form.initial['product'] = basket_items[num].product
                     form.initial['quantity'] = basket_items[num].quantity
+                    # заполнили цену
+                    form.initial['price'] = basket_items[num].product.price
                     # дбавляет ещё один вызов к базе
                     # basket_items[num].delete()
                 # basket_items.delete()
@@ -77,13 +80,16 @@ class OrderUpdate(LoginRequiredMixin, UpdateView):
         OrderFormSet = inlineformset_factory(Order, OrderItem, form=OrderItemForm, extra=1)
 
         if self.request.POST:
-            formset = OrderFormSet(self.request.POST, instance=self.object)
+            data['orderitems'] = OrderFormSet(self.request.POST)
         else:
             formset = OrderFormSet(instance=self.object)
+            for form in formset.forms:
+                if form.instance.pk:
+                    form.initial['price'] = form.instance.product.price
 
             data['orderitems'] = formset
 
-            return data
+        return data
 
     def form_valid(self, form):
         context = self.get_context_data()
