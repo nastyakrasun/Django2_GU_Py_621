@@ -2,6 +2,7 @@ from django.conf import settings
 from django.db import models
 
 from mainapp.models import Product
+from ordersapp.models import OrderItem
 
 
 class BasketQuerySet(models.QuerySet):
@@ -34,6 +35,10 @@ class Basket(models.Model):
         auto_now_add=True,
     )
 
+    @staticmethod
+    def get_item(pk):
+        return OrderItem.objects.filter(pk=pk).first()
+
     @property
     def product_cost(self):
         return self.product.price * self.quantity
@@ -49,3 +54,11 @@ class Basket(models.Model):
         items = Basket.objects.filter(user=self.user)
         totalcost = sum(list(map(lambda x: x.product_cost, items)))
         return totalcost
+
+    def save(self, *args, **kwargs):
+        if self.pk:
+            self.product.quantity -= self.quantity - self.__class__.get_item(self.pk).quantity
+        else:
+            self.product.quantity -= self.quantity
+        self.product.save()
+        super(self.__class__, self).save(*args, **kwargs)
