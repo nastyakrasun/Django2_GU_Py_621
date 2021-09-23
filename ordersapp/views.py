@@ -37,7 +37,9 @@ class OrderItemsCreate(LoginRequiredMixin, CreateView):
                 for num, form in enumerate(formset.forms):
                     form.initial['product'] = basket_items[num].product
                     form.initial['quantity'] = basket_items[num].quantity
-                basket_items.delete()
+                    # дбавляет ещё один вызов к базе
+                    # basket_items[num].delete()
+                # basket_items.delete()
             else:
                 formset = OrderFormSet()
 
