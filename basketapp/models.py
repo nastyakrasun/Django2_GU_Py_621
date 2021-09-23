@@ -37,7 +37,7 @@ class Basket(models.Model):
 
     @staticmethod
     def get_item(pk):
-        return OrderItem.objects.filter(pk=pk).first()
+        return Basket.objects.filter(pk=pk).first()
 
     @property
     def product_cost(self):
