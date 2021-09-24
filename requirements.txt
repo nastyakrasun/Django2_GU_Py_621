@@ -12,3 +12,4 @@ virtualenv==20.8.0
 social-auth-app-django
 django-environ
 requests
+psycopg2-binary
