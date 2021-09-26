@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'debug_toolbar',
+
     'mainapp',
     'authapp',
     'basketapp',
@@ -46,7 +48,6 @@ INSTALLED_APPS = [
     'ordersapp',
 
     'social_django',
-    'debug_toolbar',
     'template_profiler_panel',
 ]
 
@@ -109,6 +110,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'social_django.middleware.SocialAuthExceptionMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'geekshop.urls'
@@ -224,3 +226,8 @@ EMAIL_FILE_PATH = 'tmp/email-messages/'
 SOCIAL_AUTH_VK_OAUTH2_KEY = env('SOCIAL_AUTH_VK_OAUTH2_KEY')
 SOCIAL_AUTH_VK_OAUTH2_SECRET = env('SOCIAL_AUTH_VK_OAUTH2_SECRET')
 SOCIAL_AUTH_URL_NAMESPACE = 'social'
+
+INTERNAL_IPS = [
+    '127.0.0.1',
+    '127.0.0.1:8000',
+]
