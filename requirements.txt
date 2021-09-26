@@ -19,3 +19,4 @@ django-extensions
 pydotplus
 graphviz
 locust
+siege
