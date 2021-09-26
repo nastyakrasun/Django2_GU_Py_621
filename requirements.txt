@@ -18,3 +18,4 @@ django-debug-toolbar-template-profiler
 django-extensions
 pydotplus
 graphviz
+locust
