@@ -8,13 +8,13 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 def get_hot_product():
-	products = Product.objects.all()
-	return random.sample(list(products), 1)[0]
+    products = Product.objects.all()
+    return random.sample(list(products), 1)[0]
 
 
 def get_same_products(hot_product):
-	same_products = Product.objects.filter(category=hot_product.category).exclude(pk=hot_product.pk)
-	return same_products
+    same_products = Product.objects.filter(is_active=True).select_related('category').exclude(pk=hot_product.pk)
+    return same_products
 
 
 def products(request, pk=None, page=1):

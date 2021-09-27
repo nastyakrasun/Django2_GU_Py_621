@@ -13,3 +13,10 @@ social-auth-app-django
 django-environ
 requests
 psycopg2-binary==2.9.1
+django-debug-toolbar
+django-debug-toolbar-template-profiler
+django-extensions
+pydotplus
+graphviz
+locust
+siege
